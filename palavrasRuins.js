@@ -1,4 +1,4 @@
-const PALAVRAS_RUINS = new Set([
+export const PALAVRAS_RUINS = new Set([
     "que",
     "para",
     "com",
