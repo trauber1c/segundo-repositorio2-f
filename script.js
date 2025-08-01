@@ -16,7 +16,7 @@ function mostraPalavrasChave() {
 function processaTexto(texto) {
     //let palavras = texto.split(/\s+/);  "retirar espaços"
     //let palavras = texto.split(/[^a-zA-Z]+/); "letras minusculas e maiusculas"
-    let palavras = texto.split(/\P{L}+/u/);  /* \P negação;  {L} conjunto de letras; + uma ou mais ocorrências; u Unicode*/
+    let palavras = texto.split(/\P{L}+/u);  /* \P negação;  {L} conjunto de letras; + uma ou mais ocorrências; u Unicode*/
 
     for (let i in plalavras) {
         palavras [i] = palavras[i].toLowerCase();
